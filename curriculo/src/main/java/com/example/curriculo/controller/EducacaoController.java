@@ -10,7 +10,7 @@ import com.example.curriculo.service.EducacaoService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/educacoes")
+@RequestMapping("/curriculo/educacao")
 public class EducacaoController {
 
     @Autowired

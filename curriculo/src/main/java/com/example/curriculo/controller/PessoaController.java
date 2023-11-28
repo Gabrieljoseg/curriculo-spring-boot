@@ -12,7 +12,7 @@ import com.example.curriculo.model.Pessoa;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/pessoas")
+@RequestMapping("/curriculo/pessoas")
 public class PessoaController {
 
     @Autowired

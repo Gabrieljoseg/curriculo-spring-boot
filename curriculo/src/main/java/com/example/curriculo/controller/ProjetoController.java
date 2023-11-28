@@ -17,7 +17,7 @@ import com.example.curriculo.model.Projeto;
 import com.example.curriculo.service.ProjetoService;
 
 @RestController
-@RequestMapping("/api/projetos")
+@RequestMapping("/curriculo/projetos")
 public class ProjetoController {
 
     @Autowired

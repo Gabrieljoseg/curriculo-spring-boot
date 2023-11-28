@@ -17,7 +17,7 @@ import com.example.curriculo.model.Habilidade;
 import com.example.curriculo.service.HabilidadeService;
 
 @RestController
-@RequestMapping("/api/habilidades")
+@RequestMapping("/curriculo/habilidades")
 public class HabilidadeController {
 
     @Autowired

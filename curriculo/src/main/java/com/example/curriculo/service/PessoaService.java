@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.example.curriculo.model.Pessoa;
 import com.example.curriculo.repository.PessoaRepository;
 
+@Service
 public class PessoaService {
 
     @Autowired

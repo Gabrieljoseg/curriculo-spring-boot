@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 import com.example.curriculo.model.Educacao;
 import com.example.curriculo.repository.EducacaoRepository;
+
+@Service
 public class EducacaoService {
 
     @Autowired
